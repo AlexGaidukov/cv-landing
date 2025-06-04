@@ -218,11 +218,12 @@ function reorderSectionsMobile() {
   }
 }
 window.addEventListener('DOMContentLoaded', reorderSectionsMobile);
+let lastIsMobile = window.innerWidth <= 700;
 window.addEventListener('resize', function() {
-  // On resize, reload to restore original structure if switching between mobile/desktop
-  if ((window.innerWidth > 700 && document.querySelector('.cv-main-layout').children.length === 5) ||
-      (window.innerWidth <= 700 && document.querySelector('.cv-main-layout').children.length !== 5)) {
+  const isMobile = window.innerWidth <= 700;
+  if (isMobile !== lastIsMobile) {
     window.location.reload();
+    lastIsMobile = isMobile;
   }
 });
 </script>
