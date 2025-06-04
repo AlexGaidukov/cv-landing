@@ -221,10 +221,14 @@ window.addEventListener('DOMContentLoaded', reorderSectionsMobile);
 let lastIsMobile = window.innerWidth <= 700;
 window.addEventListener('resize', function() {
   const isMobile = window.innerWidth <= 700;
-  if (isMobile !== lastIsMobile) {
+  if (isMobile !== lastIsMobile && !sessionStorage.getItem('hasReloaded')) {
+    sessionStorage.setItem('hasReloaded', 'true');
     window.location.reload();
-    lastIsMobile = isMobile;
   }
+});
+// Clear the reload flag after reload
+window.addEventListener('DOMContentLoaded', function() {
+  sessionStorage.removeItem('hasReloaded');
 });
 </script>
 </body>
