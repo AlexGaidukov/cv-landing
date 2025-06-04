@@ -1,0 +1,365 @@
+body {
+    background: #f6f6f2;
+    color: #222;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cv-container {
+    max-width: 1100px;
+    width: 95vw;
+    margin: 24px auto;
+    background: #fff;
+    box-shadow: 0 2px 18px rgba(0,0,0,0.03);
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 48px 40px 40px 40px;
+}
+
+.cv-main-layout {
+    display: flex;
+    gap: 48px;
+}
+
+.cv-main-content {
+    flex: 2 1 0;
+    min-width: 0;
+}
+
+.cv-right-column {
+    flex: 1 1 300px;
+    min-width: 260px;
+    max-width: 340px;
+    border-left: 1.5px solid #e3e3dd;
+    padding-left: 36px;
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.cv-contact-block ul {
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+}
+.cv-contact-block {
+    margin-bottom: 4px;
+    padding-bottom: 0;
+}
+.cv-contact-block li {
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: #444;
+    word-break: break-all;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.cv-education-text {
+    font-size: 0.99rem;
+    color: #444;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    line-height: 1.5;
+}
+.contact-icon {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 5px;
+    min-width: 18px;
+    min-height: 18px;
+}
+.contact-icon svg {
+    display: block;
+    width: 18px;
+    height: 18px;
+    stroke: #888;
+    vertical-align: middle;
+}
+.cv-contact-block a {
+    color: #222;
+    text-decoration: underline dotted;
+    transition: color 0.2s;
+}
+.cv-contact-block a:hover {
+    color: #8d8d6b;
+    text-decoration: underline solid;
+}
+
+.skills-cloud {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.skills-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 10px 10px;
+    margin-bottom: 6px;
+}
+.skills-group-title {
+    flex-basis: 100%;
+    font-weight: 600;
+    color: #222;
+    font-size: 1.02rem;
+    margin-bottom: 4px;
+    letter-spacing: 0.5px;
+}
+.skill-tag {
+    display: inline-block;
+    background: #f8f8f4;
+    color: #444;
+    border: 1px solid #ecece7;
+    border-radius: 14px;
+    padding: 2px 9px;
+    font-size: 0.93rem;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    font-weight: 400;
+    box-shadow: none;
+    cursor: default;
+    transition: none;
+}
+/* Remove hover effect for static appearance */
+.skill-tag:hover {
+    background: #f8f8f4;
+    color: #444;
+    border-color: #ecece7;
+    cursor: default;
+}
+
+.skills-cloud {
+    gap: 10px;
+}
+.skills-group {
+    gap: 6px 6px;
+    margin-bottom: 2px;
+}
+.skills-group-title {
+    margin-bottom: 0px;
+    font-size: 0.99rem;
+    color: #333;
+}
+
+@media (max-width: 700px) {
+    .skills-cloud {
+        gap: 10px;
+    }
+    .skills-group {
+        gap: 7px 7px;
+    }
+    .skill-tag {
+        font-size: 0.95rem;
+        padding: 3px 9px;
+    }
+}
+
+
+@media (max-width: 950px) {
+    .cv-main-layout {
+        flex-direction: column;
+        gap: 0;
+    }
+    .cv-right-column {
+        border-left: none;
+        padding-left: 0;
+        margin-left: 0;
+        max-width: none;
+        margin-top: 32px;
+    }
+}
+
+.cv-header-top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 2px solid #e3e3dd;
+    padding-bottom: 18px;
+    margin-bottom: 24px;
+}
+
+.cv-location {
+    display: flex;
+    align-items: center;
+    color: #6b6b6b;
+    font-size: 1.08rem;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    gap: 6px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+}
+
+.cv-name {
+    font-size: 2.8rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+    font-family: 'Didot', 'Georgia', serif;
+}
+
+.cv-contact {
+    font-size: 1rem;
+    color: #6b6b6b;
+    margin-bottom: 4px;
+}
+.cv-contact a {
+    color: #222;
+    text-decoration: underline dotted;
+    margin: 0 2px;
+    transition: color 0.2s;
+}
+.cv-contact a:hover {
+    color: #8d8d6b;
+    text-decoration: underline solid;
+}
+
+.cv-job-title a,
+.cv-job-title a:visited {
+    color: #444;
+    text-decoration: underline dotted;
+    transition: color 0.2s;
+}
+.cv-job-title a:hover {
+    color: #8d8d6b;
+    text-decoration: underline solid;
+}
+
+.cv-profile {
+    margin-top: 18px;
+    font-size: 1.08rem;
+    color: #444;
+    line-height: 1.6;
+}
+
+.cv-section {
+    margin-bottom: 32px;
+}
+.cv-section h2 {
+    font-size: 1.15rem;
+    letter-spacing: 1px;
+    color: #222;
+    border-bottom: 1px solid #e3e3dd;
+    padding-bottom: 5px;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.cv-job {
+    margin-bottom: 22px;
+}
+.cv-job-title {
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: #222;
+    letter-spacing: 1px;
+}
+.cv-job-role {
+    font-size: 0.98rem;
+    color: #6b6b6b;
+    margin-bottom: 6px;
+    display: block;
+}
+.cv-job-type {
+    font-size: 0.9em;
+    font-style: italic;
+    color: inherit;
+}
+.cv-job ul {
+    margin-top: 6px;
+    margin-bottom: 0;
+    padding-left: 1.1em;
+}
+.cv-job ul ul {
+    margin-top: 0;
+}
+.cv-job li {
+    font-size: 0.99rem;
+    margin-bottom: 2px;
+    line-height: 1.5;
+}
+
+.cv-two-columns {
+    display: flex;
+    gap: 48px;
+}
+.cv-column {
+    flex: 1;
+}
+.cv-column ul {
+    margin: 0;
+    padding-left: 1.1em;
+}
+.cv-column li {
+    font-size: 0.99rem;
+    margin-bottom: 4px;
+    line-height: 1.5;
+}
+
+@media (max-width: 700px) {
+    .cv-container {
+        padding: 18px 3vw;
+    }
+    .cv-two-columns {
+        flex-direction: column;
+        gap: 0;
+    }
+    /* Mobile section order adjustments */
+    .cv-main-layout {
+        flex-direction: column;
+        gap: 0;
+    }
+    .cv-main-content, .cv-right-column {
+        min-width: 0;
+        max-width: 100%;
+        border-left: none;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    /* 1. Name & Location */
+    .cv-header-top {
+        order: 1;
+    }
+    /* 2. Contacts */
+    .cv-contact-block {
+        order: 2;
+    }
+    /* 3. Experience (first section in main) */
+    main > .cv-section {
+        order: 3;
+    }
+    /* 4. Additional Skills (first section in aside after contacts) */
+    .cv-right-column > .cv-section:nth-of-type(2) {
+        order: 4;
+    }
+    /* 5. Education (second section in aside after contacts) */
+    .cv-right-column > .cv-section:nth-of-type(3) {
+        order: 5;
+    }
+    /* Ensure aside sections are full width on mobile */
+    .cv-right-column > .cv-section {
+        width: 100%;
+    }
+    /* Hide the mobile clone by default (desktop) */
+    .mobile-contact-block {
+        display: none !important;
+    }
+    /* Show the mobile clone and hide the original on mobile */
+    @media (max-width: 700px) {
+        .mobile-contact-block {
+            display: block !important;
+            width: 100%;
+            margin: 24px 0 24px 0;
+            padding: 0 0 16px 0;
+            border: none;
+            background: none;
+            box-shadow: none;
+        }
+        .cv-contact-block:not(.mobile-contact-block) {
+            display: none !important;
+        }
+    }
+
