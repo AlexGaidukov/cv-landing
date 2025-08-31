@@ -1,0 +1,70 @@
+{
+  "posts": [
+    {
+      "id": "post1",
+      "price": "€ 25000",
+      "url": "https://m.mobile.de/fahrzeuge/details.html?id=433032929",
+      "images": [
+        "https://gaidukov.tech/cartok/img/1/58be4985-9a14-4cc7-993f-bdc15468a925.avif",
+        "https://gaidukov.tech/cartok/img/1/8fe6d008-0f8d-4741-85ca-52620c2a4f7c.avif",
+        "https://gaidukov.tech/cartok/img/1/91cccd27-9975-4eab-a8fe-8b58838902d5.avif",
+        "https://gaidukov.tech/cartok/img/1/a4d7c48e-294e-4e2f-ba7a-739d6e9b77b1.avif",
+        "https://gaidukov.tech/cartok/img/1/c3250b22-57e7-4391-8b0d-f4c45663a620.avif",
+        "https://gaidukov.tech/cartok/img/1/cce9626f-0593-47b8-ae05-f63e39c4d504.avif"
+      ]
+    },
+    {
+      "id": "post2",
+      "price": "6499000₽",
+      "url": "https://auto.ru/cars/used/sale/bmw/m3/1128947594-3d70af50/",
+      "images": [
+        "https://gaidukov.tech/cartok/img/2/1200x900n.webp",
+        "https://gaidukov.tech/cartok/img/2/1200x900n2.webp",
+        "https://gaidukov.tech/cartok/img/2/7YLWLxmma1vjWy2KJQJpYCCuJOjFF5pJjPa4cMwnQtSNMjkLvCA1bObfk1Cc_-CZKi6RT-yqWe3Azma9p9_Gi7zn11tYQ_tf8rqNjjBXHeHBy-CpNYQ4_071ysLOJIR3fyMcr9nBsWjgSSOl3KmGPq0c515Kq-5Ndy1UW7P6MP2fwCZezne6SdQYfPnWYBpkgB_3vNZluIxdxMgCn4Zk987yHU3IBUMa8SvlV62IF-6vjCf.webp",
+        "https://gaidukov.tech/cartok/img/2/7YLWLxmma1vjWy2KJQJpYCCuJOjFF5pJjPa4cMwnQtSNMjkLvCAFHDavw1BM39BZrzukWuyPCcjg3mOoEvoGe4lXVztY1ts_wu-YDjBXHeHBy-CpNYQ4_071ysLOJIR3fyMcr9nBsWjgSSOl3KmGPq0c515Kq-5Ndy1UW7P6MP2fwCZezne6SdQYfPnWYBpkgB_3vNZluIxdxMgCn4Zk987yHU3IBUMa8SvlV62IF-6vjCf.webp"
+      ]
+    },
+    {
+      "id": "post3",
+      "price": "€ 200",
+      "url": "https://www.facebook.com/commerce/listing/1131670398900207",
+      "images": [
+        "https://gaidukov.tech/cartok/img/3/540895883_2527995780899406_4084038207017740521_n.jpg",
+        "https://gaidukov.tech/cartok/img/3/540937957_2527995770899407_5844471530136213323_n.jpg",
+        "https://gaidukov.tech/cartok/img/3/540941563_2527995767566074_82039709394974074_n.jpg",
+        "https://gaidukov.tech/cartok/img/3/540995227_2527995784232739_61450675548571201_n.jpg",
+        "https://gaidukov.tech/cartok/img/3/541343884_2527995774232740_6682598807579227092_n.jpg"
+      ]
+    },
+    {
+      "id": "post4",
+      "price": "£ 2950",
+      "url": "https://www.autotrader.co.uk/car-details/202508155478576",
+      "images": [
+        "https://gaidukov.tech/cartok/img/4/4185361ddf774c33a625efb1f0f16401.jpg",
+        "https://gaidukov.tech/cartok/img/4/b90d36b3b4d54c1ab553ba76a3e5999c.jpg",
+        "https://gaidukov.tech/cartok/img/4/c0fcf5c79d574070821a4dd87bdb139a.jpg"
+      ]
+    },
+    {
+      "id": "post5",
+      "price": "€ 21000",
+      "url": "https://www.polovniautomobili.com/auto-oglasi/26242811/porsche-cayenne",
+      "images": [
+        "https://gaidukov.tech/cartok/img/5/0a3aeef09a14-1920x1080.jpg",
+        "https://gaidukov.tech/cartok/img/5/2ac8f1634641-800x600.jpg",
+        "https://gaidukov.tech/cartok/img/5/3604cc823f93-800x600.jpg",
+        "https://gaidukov.tech/cartok/img/5/5f2c783a6aa2-800x600.jpg",
+        "https://gaidukov.tech/cartok/img/5/67ef13ac9ba9-1920x1080.jpg",
+        "https://gaidukov.tech/cartok/img/5/6cb20b762122-800x600.jpg",
+        "https://gaidukov.tech/cartok/img/5/71878a5afd74-800x600.jpg",
+        "https://gaidukov.tech/cartok/img/5/850e506b96e7-800x600.jpg",
+        "https://gaidukov.tech/cartok/img/5/a8d5893f75b5-800x600.jpg",
+        "https://gaidukov.tech/cartok/img/5/c13585ed9f6e-1920x1080.jpg",
+        "https://gaidukov.tech/cartok/img/5/cc60b733402d-800x600.jpg",
+        "https://gaidukov.tech/cartok/img/5/cffbea94a058-800x600.jpg",
+        "https://gaidukov.tech/cartok/img/5/db406c78b94c-800x600.jpg"
+      ]
+    }
+  ]
+}
