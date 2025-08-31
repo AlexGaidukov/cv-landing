@@ -2,6 +2,7 @@
   "posts": [
     {
       "id": "post1",
+      "name": "2019 Mazda MX-5",
       "price": "€ 25000",
       "url": "https://m.mobile.de/fahrzeuge/details.html?id=433032929",
       "images": [
@@ -15,7 +16,8 @@
     },
     {
       "id": "post2",
-      "price": "6499000₽",
+      "name": "1998 BMW M3 E36",
+      "price": "€ 65000",
       "url": "https://auto.ru/cars/used/sale/bmw/m3/1128947594-3d70af50/",
       "images": [
         "https://gaidukov.tech/cartok/img/2/1200x900n.webp",
@@ -26,6 +28,7 @@
     },
     {
       "id": "post3",
+      "name": "Opel Corsa C",
       "price": "€ 200",
       "url": "https://www.facebook.com/commerce/listing/1131670398900207",
       "images": [
@@ -38,6 +41,7 @@
     },
     {
       "id": "post4",
+      "name": "2011 Mazda MX-5",
       "price": "£ 2950",
       "url": "https://www.autotrader.co.uk/car-details/202508155478576",
       "images": [
@@ -48,6 +52,7 @@
     },
     {
       "id": "post5",
+      "name": "2014 Porsche Cayenne 3.0 TDI Platinum",
       "price": "€ 21000",
       "url": "https://www.polovniautomobili.com/auto-oglasi/26242811/porsche-cayenne",
       "images": [
