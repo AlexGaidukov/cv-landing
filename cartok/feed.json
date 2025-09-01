@@ -70,6 +70,17 @@
         "https://gaidukov.tech/cartok/img/5/cffbea94a058-800x600.jpg",
         "https://gaidukov.tech/cartok/img/5/db406c78b94c-800x600.jpg"
       ]
+    },
+    {
+      "id": "post6",
+      "name": "1989 Nissan S-Cargo 1.5 AT",
+      "price": "€ 20000",
+      "url": "https://www.avito.ru/moskva/avtomobili/nissan_s-cargo_1.5_at_1989_136_000_km_7498229830",
+      "images": [
+        "https://gaidukov.tech/cartok/img/6/1.KWOHLra4hYqxh0eP2ToWduGPh4w5jweC8YqHiDeHjYAx.webp",
+        "https://gaidukov.tech/cartok/img/6/1.hB46I7a4KPcMiuryPgHiCFyCKvGEgqr_TIcq9YqKIP2M.webp",
+        "https://gaidukov.tech/cartok/img/6/1.koNQkra4PmpmO_xvePzBljYzPGzuM7xiJjY8aOA7NmDm.webp"
+      ]
     }
   ]
 }
